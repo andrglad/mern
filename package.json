@@ -1,0 +1,32 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "Mern stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js40"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrglad/mern.git"
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Andrey Gladilin <andrglad@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrglad/mern/issues"
+  },
+  "homepage": "https://github.com/andrglad/mern#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
